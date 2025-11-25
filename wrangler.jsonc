@@ -2,6 +2,13 @@
   "name": "boba-tech",
   "compatibility_date": "2025-11-25",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "headers": {
+      "**/*": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, HEAD, POST, OPTIONS",
+        "Access-Control-Allow-Headers": "*"
+      }
+    }
   }
 }
